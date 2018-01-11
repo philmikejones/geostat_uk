@@ -2,7 +2,7 @@ theme = "docuapi"
 themesdir = "themes"
 languageCode = "en-gb"
 baseurl = "http://geostat.uk"
-title = "Geo Statistics"
+title = "UK Geo Statistics"
 
 # Code higlighting settings
 pygmentsCodefences = true
