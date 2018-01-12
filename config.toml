@@ -1,71 +1,46 @@
-theme = "docuapi"
-themesdir = "themes"
-languageCode = "en-gb"
-baseurl = "http://geostat.uk"
-title = "UK Geo Statistics"
-
-# Code higlighting settings
-pygmentsCodefences = true
-pygmentsCodeFencesGuesSsyntax = false
-pygmentsOptions = ""
-pygmentsStyle = "monokai"
-# The monokai stylesheet is included in the base template.
-pygmentsUseClasses = true
-
+baseURL = "/"
+languageCode = "en-GB"
 defaultContentLanguage = "en"
 
+title = "GeoStat"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
 [params]
-search = true
+  editURL = "https://github.com/philmikejones/geostat_uk/edit/master/content/"
+  description = "UK geo statistics"
+  author = "Phil Mike Jones, Tom Broomhead, and Amber Wilson"
+  showVisitedLinks = true
 
-# Configure the language example tabs.
-[[params.language_tabs]]
-key = "go"
-name = "Go"
-[[params.language_tabs]]
-key = "shell"
-name = "Shell"
-[[params.language_tabs]]
-key = "ruby"
-name = "Ruby"
-[[params.language_tabs]]
-key = "python"
-name = "Python"
-[[params.language_tabs]]
-key = "javascript"
-name = "Javascript"
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
 
-#Languages
-[languages]
-
-[languages.en]
-languageName = "English"
-weight = 2
-title = "DocuAPI Example Site"
-
-# Left sidebar footer items. Use HTMl or Markdown.
-toc_footers = [
-"<a href='#'>Sign Up for a Developer Key</a>",
-"Documentation Powered by [DocuAPI](https://github.com/bep/docuapi)",
-"Hugo Theme by [bep](https://github.com/bep)"
-]
-[languages.en.blackfriday]
-angledQuotes = false
-hrefTargetBlank = true
-
-
-[languages.nn]
-languageName = "Nynorsk"
+[Languages]
+[Languages.en]
+title = "Geographical statistics for the UK"
 weight = 1
-title = "DocuAPI-døme"
+languageName = "English"
 
-# Left sidebar footer items. Use HTMl or Markdown.
-toc_footers = [
-"<a href='#'>Registrer deg for ein utviklarnøkkel</a>",
-"Dokumentasjonen er driven av [DocuAPI](https://github.com/bep/docuapi)",
-"Hugo Theme av [bep](https://github.com/bep)"
-]
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/philmikejones/geostat_uk"
+weight = 10
 
-[languages.nn.blackfriday]
-# Norwegian uses angled quotes
-angledQuotes = true
-hrefTargetBlank = true
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-camera'></i> Showcases"
+url = "showcase"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
