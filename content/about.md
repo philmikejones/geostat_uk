@@ -23,7 +23,6 @@ This site is a curated collection of geographical data sets and resources that w
 
 This site is built with ♥ using:
 
-* [Hugo](https://gohugo.io/)
-* [Learn theme](https://github.com/matcornic/hugo-theme-learn)
+* [Hugo](https://gohugo.io/) with [Learn theme](https://github.com/matcornic/hugo-theme-learn)
 * [Github](https://github.com)
 * [Netlify](https://www.netlify.com)
