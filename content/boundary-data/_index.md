@@ -3,7 +3,6 @@ title = "Boundary data"
 date = 2018-01-13
 weight = 5
 chapter = true
-pre = "<b>1. </b>"
 +++
 
 <!--### Chapter 1-->
