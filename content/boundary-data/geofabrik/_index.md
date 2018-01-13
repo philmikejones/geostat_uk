@@ -31,5 +31,4 @@ Northern Ireland is available from [Ireland and Northern Ireland](http://downloa
 
 ## Notes
 
-- The easy download service is the easiest way to find the most common and current boundaries, but for less common or historical geographies you will need the boundary data selector
-- They offer additional services such as geocoding, postcode lookups, and automatic thematic maps
+- Uses OpenStreetMap data and bundles it for publication
