@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://geostat.uk/"
 languageCode = "en-GB"
 # defaultContentLanguage = "en"
 
@@ -35,50 +35,22 @@ weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-github'></i> Github repo"
-identifier = "ds"
-url = "https://github.com/philmikejones/geostat_uk"
+name = "<i class='fa fa-camera'></i> Showcases"
+url = "showcase"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> Showcases"
-url = "showcase"
-weight = 11
+name = "<i class='fa fa-code-fork'></i> Contribute"
+url = "contribute"
+weight = 20
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-bookmark'></i> Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/philmikejones/geostat_uk"
+weight = 30
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-bullhorn'></i> About"
 url = "/about"
-weight = 30
-
-# [Languages.fr]
-# title = "Documentation du thème Hugo Learn"
-# weight = 2
-# languageName = "Français"
-#
-# [[Languages.fr.menu.shortcuts]]
-# name = "<i class='fa fa-github'></i> Repo Github"
-# identifier = "ds"
-# url = "https://github.com/matcornic/hugo-theme-learn"
-# weight = 10
-#
-# [[Languages.fr.menu.shortcuts]]
-# name = "<i class='fa fa-camera'></i> Vitrine"
-# url = "/showcase"
-# weight = 11
-#
-# [[Languages.fr.menu.shortcuts]]
-# name = "<i class='fa fa-bookmark'></i> Documentation Hugo"
-# identifier = "hugodoc"
-# url = "https://gohugo.io/"
-# weight = 20
-#
-# [[Languages.fr.menu.shortcuts]]
-# name = "<i class='fa fa-bullhorn'></i> Crédits"
-# url = "/about"
-# weight = 30
+weight = 40
