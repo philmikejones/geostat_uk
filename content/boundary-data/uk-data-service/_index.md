@@ -25,7 +25,7 @@ https://census.ukdataservice.ac.uk/get-data/boundary-data
 
 ## Boundary types:
 
-- geographical boundaries (the coastline)
+- geographical boundaries (coastline, rivers, etc)
 - administrative boundaries (regions, local authority district, parishes)
 - electoral boundaries (electoral wards, parliamentary constituencies)
 - statistical building blocks (MSOA, LSOA, output areas)
