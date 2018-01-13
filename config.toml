@@ -9,7 +9,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir=false
 
 [params]
-  editURL = "https://github.com/philmikejones/geostat_uk/edit/master/content/"
+  # editURL = "https://github.com/philmikejones/geostat_uk/edit/master/content/"
   author = "Phil Mike Jones"
   description = "UK geo statistics"
   showVisitedLinks = true
