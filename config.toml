@@ -1,25 +1,36 @@
 baseURL = "/"
 languageCode = "en-GB"
-defaultContentLanguage = "en"
+# defaultContentLanguage = "en"
 
-title = "GeoStat"
+title = "geostat"
 theme = "hugo-theme-learn"
 themesdir = "themes"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir=false
 
 [params]
   editURL = "https://github.com/philmikejones/geostat_uk/edit/master/content/"
+  author = "Phil Mike Jones"
   description = "UK geo statistics"
-  author = "Phil Mike Jones, Tom Broomhead, and Amber Wilson"
   showVisitedLinks = true
+  disableSearch = false
+  disableAssetsBusting = false
+  disableInlineCopyToClipBoard = false
+  # A title for shortcuts in menu is set by default. Set this to true to disable it.
+  disableShortcutsTitle = false
+  # When using mulitlingual website, disable the switch language button.
+  disableLanguageSwitchingButton = true
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "weight"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "green"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Geographical statistics for the UK"
+title = "UK geographical resources"
 weight = 1
 languageName = "English"
 
@@ -41,6 +52,33 @@ url = "https://gohugo.io/"
 weight = 20
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-bullhorn'></i> Credits"
-url = "/credits"
+name = "<i class='fa fa-bullhorn'></i> About"
+url = "/about"
 weight = 30
+
+# [Languages.fr]
+# title = "Documentation du thème Hugo Learn"
+# weight = 2
+# languageName = "Français"
+#
+# [[Languages.fr.menu.shortcuts]]
+# name = "<i class='fa fa-github'></i> Repo Github"
+# identifier = "ds"
+# url = "https://github.com/matcornic/hugo-theme-learn"
+# weight = 10
+#
+# [[Languages.fr.menu.shortcuts]]
+# name = "<i class='fa fa-camera'></i> Vitrine"
+# url = "/showcase"
+# weight = 11
+#
+# [[Languages.fr.menu.shortcuts]]
+# name = "<i class='fa fa-bookmark'></i> Documentation Hugo"
+# identifier = "hugodoc"
+# url = "https://gohugo.io/"
+# weight = 20
+#
+# [[Languages.fr.menu.shortcuts]]
+# name = "<i class='fa fa-bullhorn'></i> Crédits"
+# url = "/about"
+# weight = 30
