@@ -8,18 +8,27 @@ weight = 15
 http://www.diva-gis.org/gdata
 {{% /notice %}}
 
+
 ## Country(ies) available
 
 - United Kingdom
 
+
 ## Dates covered
 
 - current snapshot
+
 
 ## Boundary types
 
 - physical boundaries (coastline, rivers, elevation)
 - administrative boundaries
 - infrastructure (roads, railways)
+
+
+## License
+
+Various, depends on source
+
 
 ## Notes

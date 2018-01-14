@@ -18,9 +18,11 @@ http://download.geofabrik.de/europe/great-britain.html
 
 Northern Ireland is available from [Ireland and Northern Ireland](http://download.geofabrik.de/europe/ireland-and-northern-ireland.html)
 
+
 ## Dates covered
 
 - current snapshot
+
 
 ## Boundary types
 
@@ -33,6 +35,7 @@ Northern Ireland is available from [Ireland and Northern Ireland](http://downloa
 ## License
 
 - Open Database License
+
 
 ## Notes
 
