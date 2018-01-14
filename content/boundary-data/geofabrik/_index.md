@@ -29,6 +29,11 @@ Northern Ireland is available from [Ireland and Northern Ireland](http://downloa
 - electoral boundaries (electoral wards, parliamentary constituencies)
 - statistical building blocks (MSOA, LSOA, output areas)
 
+
+## License
+
+- Open Database License
+
 ## Notes
 
 - Uses OpenStreetMap data and bundles it for publication
