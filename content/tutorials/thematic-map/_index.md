@@ -2,6 +2,7 @@
 title = "Thematic maps"
 date =  2018-01-13
 weight = 20
+draft = true
 +++
 
 
