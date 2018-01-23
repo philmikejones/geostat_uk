@@ -22,7 +22,7 @@ We recommend [QGIS](https://www.qgis.org/en/site/) for most GIS tasks, especiall
 
 Creating a thematic map usually involves the following steps:
 
-1. Obtain and load the outline of the geographical area of interest. See our [boundary data sources](../../boundary-data) for suitable files.
+1. Obtain and load the outline of the geographical area of interest. See our [boundary files](../../boundary-files) for suitable files.
 1. Obtain and load data about the areas about a topic of interest.
 1. ‘Join’ these data sets using a unique key in both files.
 1. Set the shading of the map based on the joined dataset.
@@ -30,7 +30,7 @@ Creating a thematic map usually involves the following steps:
 This is easily achieved in QGIS.
 
 
-## Obtain and load boundary data
+## Obtain and load boundary files
 
 I use shapefiles as these appear to be the de facto standard among GIS applications. Load a shapefile with SHIFT+CTRL+V or by clicking the ‘Add Vector Layer’ icon (bottom left of this screenshot, looks like a ‘V’):
 QGIS: Add Vector Layer
@@ -81,8 +81,8 @@ Sheffield thematic map (Townsend Deprivation Scores depicted)
 Sheffield Townsend Deprivation Scores 2011 – darker areas are more deprived
 Sources
 
-The csv data is based on my analysis of the 2011 Census. The boundary data was obtained from the UK Data Service:
+The csv data is based on my analysis of the 2011 Census. The boundary files was obtained from the UK Data Service:
 
 Office for National Statistics, 2011 Census: Aggregate data (England and Wales) [computer file]. UK Data Service Census Support. Downloaded from: http://infuse.mimas.ac.uk. This information is licensed under the terms of the Open Government Licence [http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2].
 
-Office for National Statistics, 2011 Census: Digitised Boundary Data (England and Wales) [computer file]. UK Data Service Census Support. Downloaded from: http://edina.ac.uk/census
+Office for National Statistics, 2011 Census: Digitised Boundary files (England and Wales) [computer file]. UK Data Service Census Support. Downloaded from: http://edina.ac.uk/census
