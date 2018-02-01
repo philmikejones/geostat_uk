@@ -26,6 +26,8 @@ This site is a curated collection of geographical data sets and resources that w
 
 We do not host any of the materials we list ourselves; we only link to existing materials that are publicly available. We do our best to keep this website up to date and accurate but we don't make any guarantees about the suitability or accuracy of any materials we link to.
 
+If you do spot an error do please [let us know](../contribute/).
+
 We try to link to open data sets and resources where possible.
 
 
