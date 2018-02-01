@@ -8,9 +8,9 @@ disableToc: true
 We are a group of three human geographers who met while we were studying for our PhDs at the University of Sheffield.
 We are:
 
-- Phil Mike Jones
-- Tom Broomhead
-- Amber Wilson
+- [Phil Mike Jones](https://twitter.com/philmikejones)
+- [Tom Broomhead](https://www.sheffield.ac.uk/cascade/researchers)
+- [Amber Wilson](https://twitter.com/amberewilson)
 
 We started this site because finding good quality geographical data, especially for small geographies, is challenging.
 This site is a curated collection of geographical data sets and resources that we think will be useful to geographers and other researchers interested in understanding small areas.
@@ -25,6 +25,8 @@ This site is a curated collection of geographical data sets and resources that w
 ## Disclaimer
 
 We do not host any of the materials we list ourselves; we only link to existing materials that are publicly available. We do our best to keep this website up to date and accurate but we don't make any guarantees about the suitability or accuracy of any materials we link to.
+
+If you do spot an error do please [let us know](../contribute/).
 
 We try to link to open data sets and resources where possible.
 
