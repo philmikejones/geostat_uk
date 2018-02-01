@@ -1,7 +1,7 @@
 +++
 title = "GIS software"
 date = 2018-01-13
-weight = 20
+weight = 25
 chapter = true
 +++
 
